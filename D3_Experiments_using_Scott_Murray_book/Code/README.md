@@ -1,13 +1,16 @@
-# d3-book
+# Purpose
 
-These are sample code files to accompany the book “Interactive Data Visualization for the Web, Second Edition” by Scott Murray, published in July 2017 by O’Reilly.
+The purpose of these codes is to improve my d3 skills - Data Visualization for the web.
+I am doing this by experimenting with codes from the book by Scott Murray. I am also adding a lot of comments in the code to make it easier to understand even without any reference.
+
+# Description
+
+These are my personally modified sample codes from the book “Interactive Data Visualization for the Web, Second Edition” by Scott Murray, published in July 2017 by O’Reilly.
 
 - [O’Reilly book page](http://shop.oreilly.com/product/0636920037316.do)
 - [Author’s website](http://alignedleft.com/)
 
 Always find the latest book info at: [d3book.com](http://d3book.com)
-
-
 
 ## Version
 
