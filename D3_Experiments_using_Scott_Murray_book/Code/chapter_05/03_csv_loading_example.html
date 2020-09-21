@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Loading data from a CSV file</title>
+		<script type="text/javascript" src="../d3.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// This is how we access csv files in d3, using d3.csv()
+			// Here, we import food.csv file present in the folder, and use a function to take in the data from food.csv file and perform an operation
+			// The operation is output the data through the console
+			// To check the output, please open developer tools using CtrlShiftI in Chrome and open the "Console" section, you will see an the data from food.csv in form of an array there
+
+			d3.csv("food.csv", function(data) {
+				console.log(data); // thid function takes in the data from food.csv file and outputs it to console
+			});
+
+		</script>
+	</body>
+</html>
