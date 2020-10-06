@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  
+    <title>Vue Mastery</title>
+    <!-- Import Styles -->
+  
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <!-- Import Vue.js -->
+  
+    <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+  </head>
+
+
+
+  <body>
+    <div id="app"> <!-- our created app, which has product and image --> 
+      <div class="nav-bar"></div> <!-- an html class, as div element -->
+      
+      <a v-bind:href="w3schools">Visit W3Schools to learn web development</a>
+
+      <div class="product-display"> <!-- an html class, as div element, to display product -->
+        <div class="product-container"> <!-- an html class, as div element, that contains product -->
+          <div class="product-image"> <!-- an html class, as div element, that contains image of our product -->
+            
+
+            <!-- image goes here -->
+            <img v-bind:src="image"> <!-- v-bind is magic -->
+            <!-- We use v-bind to dynamically bind an attribute, here src, to an expression, here image -->
+          
+
+          </div>
+          
+
+          <div class="product-info"> <!-- an html class, as div element, containing info on our product -->
+            <h1>{{ product }}</h1> <!-- h1 tag of html contains our product, expressed as an object, thus it is in brackets {{...}} -->
+            <p>{{ product_description }}</p>
+          </div>
+        
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Import App -->
+    <script src="./main.js"></script>
+
+    <!-- Mount App -->
+    <script>
+      const mountedApp = app.mount('#app')
+    </script>
+  </body>
+</html>
