@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Setting the content of paragraphs from data</title>
+		<script type="text/javascript" src="../d3.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+		
+			d3.select("body")
+				.append("h1")
+				.text("Using data - for paragraph's content and coloring")
+				.style("color", "purple");
+
+			var dataset = [ 5, 10, 15, 20, 25 ];
+			var color = ["red", "green", "blue", "gray", "orange"]
+			
+			d3.select("body").selectAll("p")
+				.data(dataset)
+				.enter()
+				.append("p")
+				.text(function(d, i) { 
+					return "Value of "+i+" element is: "+d+" , "+"Color is: "+color[i]; }) // 
+				.style("color", function(d, i){
+					return color[i];} // coloring the text acc to index
+				);
+			
+		</script>
+	</body>
+</html>
