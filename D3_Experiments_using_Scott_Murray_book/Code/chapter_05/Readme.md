@@ -19,3 +19,9 @@ It is empty page, with a title. Thus, no need to show screenshot.
 ![Screenshot from 4](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_05/04_screenshot.PNG)
 # 5
 ![Screenshot from 5](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_05/05_screenshot.PNG)
+# 6, 7
+
+### We have already done better in 5, thus no need for screenshot
+
+# 8
+![Screenshot from 8](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_05/08_screenshot.PNG)
