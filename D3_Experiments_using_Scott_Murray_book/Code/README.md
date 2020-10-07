@@ -43,3 +43,10 @@ Now, you can open any .html file to see its code
 
 # Enjoy!
 
+### Screenshots from chapter 5
+
+##### 5-5
+![Screenshot of 5-5](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_05/05_screenshot.PNG)
+##### 5-8
+![Screenshot of 5-8](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_05/08_screenshot.PNG)
+
