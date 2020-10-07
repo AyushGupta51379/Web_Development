@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Setting paragraphs' style conditionally, based on data</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			d3.select("body")
+				.append("h1") // appending h1 with text and color
+				.text("Using data - for paragraph's content and Selective coloring, based on values in data")
+				.style("color", "purple");		
+
+			d3.select("body")
+				.append("h3") // appending h3 with text and color
+				.text("Color the paragraph red if data value is greater than 15, else blue")
+				.style("color", "green");	
+			var dataset = [ 5, 10, 15, 20, 25 ];
+			
+			d3.select("body").selectAll("p")
+				.data(dataset)
+				.enter()
+				.append("p") // appending p tags with text and color
+				.text(function(d) {
+					return "Value is: " + d;
+				})
+				.style("color", function(d) {
+					if (d > 15) {	//Threshold of 15
+						return "red";
+					} else {
+						return "blue";
+					}
+				});
+			
+		</script>
+	</body>
+</html>
