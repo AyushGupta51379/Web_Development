@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Loading data from a CSV file</title>
+		<script type="text/javascript" src="../d3.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var url = "https://raw.githubusercontent.com/AyushGupta51379/Web_Development/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_05/food.csv"
+/*
+			var dataset = d3.csv("food.csv", function(data) {
+				console.log(data);
+			});
+*/
+
+			d3.select("body")
+			    .append("h1")
+			   	.text("Food with Deliciousness");    // Appending h1 with d3
+			    
+			d3.select("body")
+			    .append("p")
+			   	.text("Loading data from file in url:"+"\n"+url); // Appending p with d3   
+			
+			d3.csv(url, function(error, data) {
+				console.log(data); // console for data
+
+			    d3.select("body")
+			        .selectAll("p")
+			        .data(data)
+			        .enter()
+			        .append("p")
+			        .text(function(d) {
+			            return d.Food+ " : " + d.Deliciousness; // Importing and displaying data with d3
+			        });
+
+			});
+/*
+			d3.select("body").selectAll("p")
+			.data(dataset)
+			.enter()
+			.append("p")
+			.text(function(d) {
+				return d;
+			})
+*/
+		</script>
+	</body>
+</html>
