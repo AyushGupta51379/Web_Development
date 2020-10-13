@@ -2,10 +2,7 @@ const app = Vue.createApp({
     data() {
         return {
             product: 'Socks',
-            image_blue: './assets/images/socks_blue.jpg',
             images: './assets/images/socks_blue.jpg',
-            image_green: './assets/images/socks_green.jpg',
-            image: 1,
             inStock: 100,
             details: ['50% cotton', '30% wool', '20% polyester'],
             variants: [
