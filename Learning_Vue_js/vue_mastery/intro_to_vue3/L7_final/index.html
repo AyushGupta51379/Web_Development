@@ -49,16 +49,18 @@
 
             <button 
               class="button"
-                v-bind:class="{disabledButton: !inStock || (inStock-cart) <= 0 || (cart >= 10)}" 
-                  v-on:click="addToCart(1)">
-                    Add to Cart
+                v-bind:class="{disabledButton: (inStock < 1) || (inStock-cart) <= 0 || (cart >= 10)}" 
+                    v-bind:disabled="(inStock < 1) || (inStock-cart) <= 0 || (cart >= 10)"
+                      v-on:click="addToCart(1)">
+                        Add to Cart
             </button>
             
             <button 
               class="button" 
-                v-bind:class="{disabledButton: !cart}"
-                  v-on:click="addToCart(-1)">
-              Remove from Cart
+                v-bind:class="{disabledButton: cart < 1}"
+                   v-bind:disabled="cart < 1" 
+                    v-on:click="addToCart(-1)">
+                      Remove from Cart
             </button>
 
           </div>
