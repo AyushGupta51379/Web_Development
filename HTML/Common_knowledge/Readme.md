@@ -2,9 +2,6 @@
 There are hundreds of different HTML elements. Here are some of the most com‐
 mon. 
 
-## <!DOCTYPE html>
-The standard document type declaration. Must be the first thing in the docu‐
-ment.
 ## html
 Surrounds all HTML content in a document.
 ## head
