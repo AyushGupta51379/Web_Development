@@ -19,21 +19,21 @@ tent of the page.
 ## h1, h2, h3, h4
 These let you specify headings of different levels. h1 is a top-level heading, h2 is
 below that, and so on.
-# p
+## p
 A paragraph!
-# ul, ol, li
+## ul, ol, li
 Unordered lists are specified with ul, most often used for bulleted lists. Ordered
 lists (ol) are often numbered. Both ul and ol should include li elements to spec‐
 ify list items.
 
-# em
-Indicates emphasis. Typically rendered in italics.
-# strong
-Indicates additional emphasis. Typically rendered in boldface.
-# a
+## a
 A link. Typically rendered as underlined, blue text, unless otherwise specified.
-# span
-An arbitrary span of text, typically within a larger containing element like p.
-# div
+## div
 An arbitrary division within the document. Used for grouping and containing
 related elements.
+## span
+An arbitrary span of text, typically within a larger containing element like p.
+## em
+Indicates emphasis. Typically rendered in italics.
+## strong
+Indicates additional emphasis. Typically rendered in boldface.
