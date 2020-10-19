@@ -12,6 +12,8 @@ My Vue.js Learning Journey - It is a JavaScript framework
 
 # How to run the code?
 
+## First, Download the folder you want to render as webpage
+
 ## Use a server
 
 You can either use a Python server or a WAMP or other server.
@@ -35,9 +37,15 @@ This will set up a server using python at the page: http://localhost:9999/
 
 ### Go to the webpage: http://localhost:9999/
 
-### Now, you can easily see the files and open them
+### Now, you can easily see the files and open them as webpages
 
 Now, you can open any .html file to see its code
+
+## How to experiment with the code
+
+### Use a text editor - You just need one - I currently prefer Sublime Text
+
+Such as Sublime Text or Visual Studio. I am currently using Sublime Text. Notepad++ is okay for a start. You can use Notepad for basic HTML code.
 
 # Enjoy!
 
