@@ -10,7 +10,7 @@ My D3 Learning Journey - it is a JavaScript library - most commonly used for Int
 ## Vue.js
 My Vue.js Learning Journey - It is a JavaScript framework
 
-# How to run the code?
+# How to run the code, to show website developed?
 
 ## First, Download the folder you want to render as webpage
 
@@ -41,9 +41,9 @@ This will set up a server using python at the page: http://localhost:9999/
 
 Now, you can open any .html file to see its code
 
-## How to experiment with the code
+# How to experiment with the code
 
-### Use a text editor - You just need one - I currently prefer Sublime Text
+## Use a text editor - You just need one - I currently prefer Sublime Text
 
 Such as Sublime Text or Visual Studio. I am currently using Sublime Text. Notepad++ is okay for a start. You can use Notepad for basic HTML code.
 
