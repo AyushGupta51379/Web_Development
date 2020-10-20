@@ -10,6 +10,26 @@ My D3 Learning Journey - it is a JavaScript library - most commonly used for Int
 ## Vue.js
 My Vue.js Learning Journey - It is a JavaScript framework
 
+# Screenshots
+
+### D3 - Data Visualizations
+##### 6-24
+![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_06/24_Screenshot.PNG)
+##### 6-21
+![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_06/21_Screenshot.PNG)
+##### 6-11
+![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_06/11_Screenshot.PNG)
+
+### Vue
+
+##### Shopping app
+
+![Top](https://github.com/AyushGupta51379/Web_Development/blob/master/Learning_Vue_js/vue_mastery/intro_to_vue3/L11_final/Screenshot.PNG)
+
+![Bottom](https://github.com/AyushGupta51379/Web_Development/blob/master/Learning_Vue_js/vue_mastery/intro_to_vue3/L11_final/Screenshot_2.PNG)
+
+
+
 # How to run the code, to show website developed?
 
 ## First, Download the folder you want to render as webpage
