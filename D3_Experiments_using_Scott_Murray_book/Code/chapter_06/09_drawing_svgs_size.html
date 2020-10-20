@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Putting the SVG's width and height into variables</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+		<style type="text/css">
+			h1{
+				color:violet;
+			}
+
+			p{
+				color:orange;
+			}
+			/* No SVG style rules here yet */		
+		</style>
+	</head>
+	<body>
+		<h1>Defining SVG, with global width and height</h1>
+		<p>Please see the code, we haven't created elements in SVG, thus nothing to see in web</p>
+		<script type="text/javascript">
+			
+			//Width and height, useful to define globally and use directly by variable names
+			var w = 500;
+			var h = 50;
+			
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+		</script>
+	</body>
+</html>

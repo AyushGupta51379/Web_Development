@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Creating an empty SVG</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+		<style type="text/css">
+			h1{
+				color:violet;
+			}
+
+			p{
+				color:orange;
+			}
+			/* No SVG style rules here yet */		
+		</style>
+	</head>
+	<body>
+		<h1>Defining SVG</h1>	
+		<p>Please see the code, we haven't created elements in SVG, thus nothing to see in web</p>
+		<script type="text/javascript">
+			
+			//Create SVG element, useful for rendering graphics in web,
+			// More convenient than just using divs, very easy to store our graphical elements, such as shapes
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", 500)
+						.attr("height", 50);
+			
+		</script>
+	</body>
+</html>

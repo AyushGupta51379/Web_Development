@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Drawing divs, spaced out</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+		<style type="text/css">
+		
+			div.bar {
+				display: inline-block;
+				width: 30px;
+				height: 75px;	/* Gets overridden by D3-assigned height below */
+				margin-right: 4px; /* margin on right helps for padding or spacing between bars*/
+				background-color: teal;
+				border: 2px outset violet;
+			}
+		
+			h1{
+				color:violet;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Div Spaced Bar Elements Using Data</h1>		
+		<script type="text/javascript">
+		
+			var dataset = [ 5, 10, 15, 20, 25 ];
+			
+			d3.select("body").selectAll("div")
+				.data(dataset)
+				.enter()
+				.append("div")
+				.attr("class", "bar")
+				.style("height", function(d) {
+					var barHeight = d * 10;
+					return barHeight + "px";
+				});
+			
+		</script>
+	</body>
+</html>

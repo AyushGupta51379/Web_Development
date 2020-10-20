@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Drawing divs with data</title>
+		<script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+		<style type="text/css">
+		
+			div.bar { /*Div element using CSS - for properly styling*/
+				display: inline-block; /* inline-block can take in height and width, that's why we used it*/
+				width: 30px;
+				height: 150px;
+				background-color: teal;
+				border: 1px outset violet;
+			}
+
+			h1{
+				color:violet;
+			}
+		
+		</style>
+	</head>
+	<body>
+
+		<h1>Div Bar Elements</h1>
+		<script type="text/javascript">
+		
+			var dataset = [ 5, 10, 15, 20, 25 ];
+			
+			d3.select("body").selectAll("div")
+				.data(dataset) // go through the above dataset, for each value, we construct the following
+				.enter() // enterting the data set
+				.append("div") // appending a div for each entry in the data set
+				.attr("class", "bar"); // we apply the properties of bar class, as the attribute of this div
+
+				// Note that we did not exactly use the values of entries in data set, 
+				// we just used the presence or absence of those entries
+				// we might as well change the values of those entries and it would not make a difference here
+				// In the next example, we are going to use the values of those entries in data set
+			
+		</script>
+	</body>
+</html>
