@@ -14,11 +14,11 @@ Always find the latest book info at: [d3book.com](http://d3book.com)
 
 ### Screenshots from chapter 6
 
-##### 24
+##### 6-24
 ![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_06/24_Screenshot.PNG)
-##### 21
+##### 6-21
 ![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_06/21_Screenshot.PNG)
-##### 11
+##### 6-11
 ![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/D3_Experiments_using_Scott_Murray_book/Code/chapter_06/11_Screenshot.PNG)
 ### Screenshots from chapter 5
 
