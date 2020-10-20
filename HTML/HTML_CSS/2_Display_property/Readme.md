@@ -1,5 +1,5 @@
 # Display Property in CSS
-Helps to organize the display - text can be displayed in multiple ways, default is inline in html, inline-block is more systematic.
+Helps to organize the display - text can be displayed in multiple ways, default is inline in html, block is more systematic.
 
 # Screenshot
 
