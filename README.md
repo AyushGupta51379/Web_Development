@@ -34,6 +34,8 @@ My Vue.js Learning Journey - It is a JavaScript framework
 
 ## First, Download the folder you want to render as webpage
 
+An easy way is to download or clone this entire repository.
+
 ## Use a server
 
 You can either use a Python server or a WAMP or other server.
