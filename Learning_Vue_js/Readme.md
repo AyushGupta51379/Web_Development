@@ -1,33 +1,47 @@
-# Intro to Vue3
+# Websites created using Vue.js
+
+## Project 1: Simple To do App
+
+### Screenshots
+#### 1 - Original screen
+
+![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/Learning_Vue_js/Simple_To_do_app/Screenshot0.PNG)
+
+#### 2 - 3 tasks added and 1 marked done
+
+![Screenshot](https://github.com/AyushGupta51379/Web_Development/blob/master/Learning_Vue_js/Simple_To_do_app/Screenshot.PNG)
 
 
-## Final Screenshot
+## Project 2: Intro to Vue3 - Shopping Website
+
+
+### Final Screenshot
 
 ![Top](https://github.com/AyushGupta51379/Web_Development/blob/master/Learning_Vue_js/vue_mastery/intro_to_vue3/L11_final/Screenshot.PNG)
 
 ![Bottom](https://github.com/AyushGupta51379/Web_Development/blob/master/Learning_Vue_js/vue_mastery/intro_to_vue3/L11_final/Screenshot_2.PNG)
 
-## Contents
+### Contents
 
-### L1 - Intro to Vue 3 and Creating the Vue App
+#### L1 - Intro to Vue 3 and Creating the Vue App
 
-### L2 - Attribute Binding
+#### L2 - Attribute Binding
 
-### L4 - Conditional Rendering
+#### L4 - Conditional Rendering
 
-### L5 - List Rendering
+#### L5 - List Rendering
 
-### L6 - Event Handling
+#### L6 - Event Handling
 
-### L7 - Class & Style Binding
+#### L7 - Class & Style Binding
 
-### L8 - Computed Properties
+#### L8 - Computed Properties
 
-### L9 - Components & Props
+#### L9 - Components & Props
 
-### L10 - Communicating Events
+#### L10 - Communicating Events
 
-### L11 - Forms & v-model
+#### L11 - Forms & v-model
 
 
 # How to run the code?
