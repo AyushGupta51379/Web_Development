@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" /> <!--If we do not set this, we encounter error in html-->
+		<title>Simple To do app</title>
+	    
+	    <!-- Import Styles from file -->
+    	<link rel="stylesheet" href="./assets/styles.css" />
+		<!-- Import Vue.js -->
+		<!--You can try other versions of vue.js, but might encounter compatibility issues, try and see which version works and what doesn't as an experiment-->
+		<script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+
+		</style>
+	</head>
+
+	<body>
+		
+		<h1>Simple To do app</h1>
+    	
+    	<!--App begins-->
+    	<div id="app">
+			<form @submit.prevent="addNewTodo"> <!-- The @ stands for v-on: , prevent is used to prevent the default action when form is submitted which is page refresh.-->
+				<label>New Todo item</label>
+				<input v-model="newTodo" name="new-todo"> <!-- Sends newTodo -->
+				<!-- v-model is used to perform data binding, works both ways, generally used for input, checkbox, text area and radio. Here we use it for input. -->
+				<button>Add Todo</button><!--Button to submit the form, once submitted, we will call our addNewTodo method to add this todo to the list of todos-->
+			</form>
+			<button @click="clearTodos()">Clear all</button><!-- The @ stands for v-on: -->
+			<button @click="doneTodos()">Mark all done</button><!-- The @ stands for v-on: -->
+
+			<p v-if="todos.length > 0">Click on the task to mark/strike as done or undone</p>
+
+			<!--List of tasks input by user, using the todo stored in todos list-->
+			<ul>
+				<li v-for="a in todos" v-bind:key="a.id"> <!-- We can directly us : instead of v-bind: -->
+					<button class="b1" v-if="a.content !== ''" @click="clearTodo(a.id)">Remove Task</button>
+					<h3 v-if="a.content !== '' && a.done==false" v-on:click="a.done = true">{{a.content}}</h3> <!--Show the todos in this list, one by one -->
+					<h3 v-if="a.content !== '' && a.done!==false" v-on:click="a.done = false"><s>{{a.content}}<s></h3> <!--Show the todos in this list, one by one, strikethrough this todo -->
+				</li>
+			</ul>
+		</div>
+
+		<!-- Import App from file -->
+	    <script src="./main.js"></script>
+	    <!-- Mount App to our index page, via this index.html file -->
+	    <script>
+	      const mountedApp = app.mount('#app') // mounting our app to this index.html using mountedApp constant.
+	    </script>
+
+	</body>
+	
+</html>

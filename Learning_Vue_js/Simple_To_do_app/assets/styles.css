@@ -1,0 +1,45 @@
+/*setting style for body*/
+body {
+  font-family: sans-serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 2em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*setting style for h1*/
+h1 {
+  font-size: 40px;
+}
+
+/*setting style for h3 - when we output the todo in todos*/
+h3 {
+  color: blue;
+  font-size: 15px;
+}
+
+/*setting style for input, textarea, paragraphs, div tags, sections, articles, select*/
+input, textarea, p, div, section, article, select {
+  display: 'block';
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 0.7em; 
+  margin: 0.25em;
+}
+
+/*setting style for buttons*/
+button{
+  display: 'block';
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 0.7em;
+  margin: 0.5em;
+  background-color: #0000A0;
+  color: white;
+}
+
+/*class to set style for special buttons - more specifically, the remove todo button*/
+.b1 {
+  background-color: blue;
+}
