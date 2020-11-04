@@ -1,6 +1,7 @@
 # Websites created using Vue.js
 
 ## Project 1: Simple To do App
+### Live demo: https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/Simple_To_do_app/
 
 ### Screenshots
 #### 1 - Original screen
@@ -14,6 +15,7 @@
 
 ## Project 2: Intro to Vue3 - Shopping Website
 
+### Live demo: https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L11_final/
 
 ### Final Screenshot
 
@@ -24,25 +26,33 @@
 ### Contents
 
 #### L1 - Intro to Vue 3 and Creating the Vue App
-
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L1/
 #### L2 - Attribute Binding
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L2/
 
 #### L4 - Conditional Rendering
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L4_end/
 
 #### L5 - List Rendering
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L5_end/
 
 #### L6 - Event Handling
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L6_final/
 
 #### L7 - Class & Style Binding
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L7_final/
 
 #### L8 - Computed Properties
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L8_final/
 
 #### L9 - Components & Props
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L9_final/
 
 #### L10 - Communicating Events
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L10_final/
 
 #### L11 - Forms & v-model
-
+##### Live demo - https://ayushgupta51379.github.io/Web_Development/Learning_Vue_js/vue_mastery/intro_to_vue3/L11_final/
 
 # How to run the code?
 
